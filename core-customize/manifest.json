@@ -1,9 +1,11 @@
 {
     "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
+    "useCloudExtensionPack": true,
     "extensions": [
         "cloudmediaconversion",  
-        "mediaconversionbackoffice"
+        "mediaconversionbackoffice",
+        "azurecloudhotfolder"
     ],
     "useConfig": {
         "properties": [
@@ -36,12 +38,7 @@
              }
         ],
         "extensions": {
-            "location": "hybris/config/localextensions.xml",
-            "exclude": [
-                "azurecloudhotfolder",
-                "cloudcommons",
-                "cloudhotfolder"
-            ]
+            "location": "hybris/config/localextensions.xml"
         }
     },
     "properties": [
