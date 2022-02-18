@@ -44,6 +44,10 @@
         {
             "key": "lang.packs",
             "value": "de,en"
+        },
+        {
+            "key": "trainingb2bstorefront.webroot",
+            "value": "/trainingb2bstorefront"
         }
     ],
     "storefrontAddons": [
@@ -148,7 +152,21 @@
                 {
                     "key": "storefrontContextRoot",
                     "value": ""
+                },
+                {
+                    "key": "spring.session.trainingb2bstorefront.save",
+                    "value":"async"
+                },
+                {
+                    "key": "spring.session.trainingb2bstorefront.cookie.name",
+                    "value": "JSESSIONID"
+                },
+                {
+                    "key": "spring.session.trainingb2bstorefront.cookie.path",
+                    "value": "/trainingb2bstorefront"
                 }
+
+
             ],
             "webapps": [
                 {
@@ -158,6 +176,10 @@
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
+                },
+                {
+                    "name": "trainingb2bstorefront",
+                    "contextPath": "/trainingb2bstorefront"
                 },
                 {
                     "name": "yacceleratorstorefront",
