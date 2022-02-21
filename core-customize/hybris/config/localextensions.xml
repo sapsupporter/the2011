@@ -33,7 +33,6 @@
     <extension name='backofficesolrsearch' />
     <extension name='platformbackoffice' />
     <extension name='ybackoffice' />
-    <!--<extension name='yacceleratorbackoffice' />-->
 
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingbackoffice"/>
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingcore"/>
@@ -43,8 +42,7 @@
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingstorefront"/>
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingtest"/>
 
-    <extension name='yacceleratorcore' />
-    <extension name='yacceleratorstorefront' />
+ 
     <extension name='basecommerce' />
     <extension name='basecommercebackoffice' />
     <extension name='payment' />
@@ -116,7 +114,6 @@
     <extension name='warehousingbackoffice' />
     <extension name='warehousingfacades' />
     <extension name='warehousingwebservices' />
-    <extension name='yacceleratorordermanagement' />
     <extension name='personalizationcms' />
     <extension name='personalizationcmsbackoffice' />
     <extension name='personalizationcmsweb' />
