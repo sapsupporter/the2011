@@ -50,63 +50,7 @@
             "value": "/trainingb2bstorefront"
         }
     ],
-    "storefrontAddons": [
-        {
-            "addon": "promotionenginesamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "smarteditaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "textfieldconfiguratortemplateaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "assistedservicestorefront",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "assistedservicepromotionaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "customerticketingaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "orderselfserviceaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "adaptivesearchsamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "multicountrysampledataaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "pcmbackofficesamplesaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        },
-        {
-            "addon": "personalizationaddon",
-            "storefront": "yacceleratorstorefront",
-            "template": "yacceleratorstorefront"
-        }
-    ],
+    
     "aspects": [
         {
             "name": "backoffice",
@@ -137,18 +81,7 @@
                     "key": "spring.session.enabled",
                     "value": "true"
                 },
-                {
-                    "key": "spring.session.yacceleratorstorefront.save",
-                    "value": "async"
-                },
-                {
-                    "key": "spring.session.yacceleratorstorefront.cookie.name",
-                    "value": "JSESSIONID"
-                },
-                {
-                    "key": "spring.session.yacceleratorstorefront.cookie.path",
-                    "value": "/"
-                },
+                
                 {
                     "key": "storefrontContextRoot",
                     "value": ""
@@ -181,10 +114,7 @@
                     "name": "trainingb2bstorefront",
                     "contextPath": "/trainingb2bstorefront"
                 },
-                {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": ""
-                },
+                
                 {
                     "name": "acceleratorservices",
                     "contextPath": "/acceleratorservices"
@@ -224,10 +154,6 @@
                 {
                     "key": "xss.filter.header.X-Frame-Options",
                     "value": ""
-                },
-                {
-                    "key": "storefrontContextRoot",
-                    "value": "/yacceleratorstorefront"
                 }
             ],
             "webapps": [
@@ -239,10 +165,7 @@
                     "name": "commercewebservices",
                     "contextPath": "/occ"
                 },
-                {
-                    "name": "yacceleratorstorefront",
-                    "contextPath": "/yacceleratorstorefront"
-                },
+                
                 {
                     "name": "smartedit",
                     "contextPath": "/smartedit"
