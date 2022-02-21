@@ -33,6 +33,7 @@
     <extension name='backofficesolrsearch' />
     <extension name='platformbackoffice' />
     <extension name='ybackoffice' />
+    
 
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingbackoffice"/>
 <extension dir="${HYBRIS_BIN_DIR}/custom/training/trainingcore"/>
@@ -186,7 +187,7 @@
     <extension name='cmswebservices' />
     <extension name='webservicescommons' />
     <extension name='ywebservices' />
-
+<extension name='mediaconversion' />
     <extension name="previewwebservices" />
     <extension name="permissionswebservices" />
 
