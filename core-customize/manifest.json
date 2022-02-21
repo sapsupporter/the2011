@@ -2,9 +2,10 @@
     "commerceSuiteVersion": "2011",
     "enableImageProcessingService": true,
     "extensions": [
+        "azurecloudhotfolder",
         "cloudmediaconversion",  
-        "mediaconversionbackoffice",
-        "azurecloudhotfolder"
+        "mediaconversionbackoffice"
+        
     ],
     "useConfig": {
         "properties": [
